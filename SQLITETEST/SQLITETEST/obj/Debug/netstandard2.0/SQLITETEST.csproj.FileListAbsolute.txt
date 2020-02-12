@@ -1,0 +1,12 @@
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\bin\Debug\netstandard2.0\SQLITETEST.deps.json
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\bin\Debug\netstandard2.0\SQLITETEST.dll
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\bin\Debug\netstandard2.0\ref\SQLITETEST.dll
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\bin\Debug\netstandard2.0\SQLITETEST.pdb
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\obj\Debug\netstandard2.0\SQLITETEST.AssemblyInfoInputs.cache
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\obj\Debug\netstandard2.0\SQLITETEST.AssemblyInfo.cs
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\obj\Debug\netstandard2.0\SQLITETEST.dll
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\obj\Debug\netstandard2.0\ref\SQLITETEST.dll
+C:\Users\EjeDesarrolloCS-162\source\repos\SQLITETEST\SQLITETEST\SQLITETEST\obj\Debug\netstandard2.0\SQLITETEST.pdb

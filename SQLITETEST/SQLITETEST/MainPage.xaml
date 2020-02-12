@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SQLITETEST.MainPage">
+    
+
+       
+
+
+        <StackLayout Margin="10,10,10,10">
+
+            <Label
+            Text="Lista users"
+            />
+
+            <ListView  x:Name="userView"
+                   GroupDisplayBinding="{Binding email}"
+                   GroupShortNameBinding="{Binding pass}"
+                   IsGroupingEnabled="true">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell 
+                            Text="{Binding email}"
+                            Detail="{Binding pass}" 
+                            />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        <Label
+            Text="Lista visitas"
+            />
+
+        <ListView  x:Name="visitsView"
+                   GroupDisplayBinding="{Binding dato1}"
+                   GroupShortNameBinding="{Binding dato2}"
+                   IsGroupingEnabled="true">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell 
+                            Text="{Binding dato1}"
+                            Detail="{Binding dato2}" 
+                            />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!-- Place new controls here -->
+                <Label Text="Welcome to Xamarin.Forms!" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+                <Entry
+                    Placeholder="email@email.com"
+                    x:Name="email_"
+                    />
+
+
+                <Entry
+                    Placeholder="password"
+                    IsPassword="True"
+                    x:Name="pass_"
+                    />
+                <Button
+                    x:Name="btnAddUser"
+                    Clicked="btnAddUser_Clicked_1"
+                    Text="Add"
+                    />
+ 
+
+            <Label Text="Welcome to Xamarin.Forms!" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+        <Entry
+                    Placeholder="email@email.com"
+                    x:Name="data1_"
+                    />
+
+
+        <Entry
+                    Placeholder="password"
+                    IsPassword="True"
+                    x:Name="data2_"
+                    />
+        <Button
+                    x:Name="btnAddVisit"
+                   Clicked="btnAddVisit_Clicked"
+                    Text="Add"
+                    />
+
+    </StackLayout>
+ </ContentPage>
